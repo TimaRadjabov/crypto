@@ -383,6 +383,8 @@ const tabContentThree = document.querySelectorAll(".content-three");
  tabChanger(tabItemThree, tabContentThree); */
  const tabItemAdaptive = document.querySelectorAll(".sixth__item-more");
  const tabContentAdaptive = document.querySelectorAll(".sixth__feedback");
+ const tabItem = document.querySelectorAll(".seventh__btn");
+ const tabContent = document.querySelectorAll(".seventh__content");
  function tabChangerAdaptive(item, content) {
 	item.forEach((tab, index) => {
 		tab.addEventListener('click', function(){
@@ -393,6 +395,7 @@ const tabContentThree = document.querySelectorAll(".content-three");
 	})
 }
 tabChangerAdaptive(tabItemAdaptive, tabContentAdaptive);
+tabChangerAdaptive(tabItem, tabContent);
 
 
 	
