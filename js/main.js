@@ -354,13 +354,10 @@ $(".sixth__slider").slick({
  });
 
  // Tab
-/*  const tabItem = document.querySelectorAll(".tab");
-const tabContent = document.querySelectorAll(".content");
-const tabItemTwo = document.querySelectorAll(".tab-two");
-const tabContentTwo = document.querySelectorAll(".content-two");
-const tabItemThree = document.querySelectorAll(".tab-three");
-const tabContentThree = document.querySelectorAll(".content-three");
- function tabChanger(item, content) {
+ const tabBtn = document.querySelectorAll(".tenth__btn");
+ const tabMap = document.querySelectorAll(".tenth__map");
+ const tabMapContent = document.querySelectorAll(".tenth__content");
+ function tabChanger(item, content, map) {
 	item.forEach((tab, index) => {
 	   tab.addEventListener('click', function(){
 		  content.forEach(content => {
@@ -370,21 +367,25 @@ const tabContentThree = document.querySelectorAll(".content-three");
 			 tab.classList.remove('active');
 		  })
 		
+		  map.forEach(tab => {
+			 tab.classList.remove('active');
+		  })
+		
 		  
 		  content[index].classList.add('active');
 		  item[index].classList.add('active'); 
+		  map[index].classList.add('active'); 
 		 
 		  
 	   })
 	})
  }
- tabChanger(tabItem, tabContent);
- tabChanger(tabItemTwo, tabContentTwo);
- tabChanger(tabItemThree, tabContentThree); */
+ tabChanger(tabBtn, tabMap, tabMapContent);
  const tabItemAdaptive = document.querySelectorAll(".sixth__item-more");
  const tabContentAdaptive = document.querySelectorAll(".sixth__feedback");
  const tabItem = document.querySelectorAll(".seventh__btn");
  const tabContent = document.querySelectorAll(".seventh__content");
+
  function tabChangerAdaptive(item, content) {
 	item.forEach((tab, index) => {
 		tab.addEventListener('click', function(){
