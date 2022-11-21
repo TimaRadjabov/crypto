@@ -2309,7 +2309,7 @@ body {
   align-items: center;
   position: relative;
 }
-.tenth__box::before{
+.tenth__box::before {
   content: "";
   width: 115px;
   height: 115px;
@@ -2357,7 +2357,7 @@ body {
   text-align: center;
   color: #e8e8e8;
 }
-.tenth__box-text span{
+.tenth__box-text span {
   font-family: "Gilroy-Bold";
 }
 .tenth__img {
@@ -2366,7 +2366,6 @@ body {
   right: -25%;
 }
 .tenth__irkutsk {
-
   bottom: 219px;
   right: -123px;
 }
@@ -2384,7 +2383,7 @@ body {
 .tenth__btn.active {
   background: url("../img/tenth/btn-active.png") no-repeat;
 }
-.tenth__map{
+.tenth__map {
   display: none;
   position: absolute;
 }
@@ -2393,131 +2392,126 @@ body {
   right: -150px;
 }
 .tenth__btn-irkutsk {
- 
   bottom: 318px;
   right: -20px;
-  
 }
 .tenth__btn-ulan {
   bottom: 269px;
   right: -130px;
 }
-.tenth__btn-novo{
+.tenth__btn-novo {
   bottom: 300px;
   left: 1024px;
 }
-.tenth__novo{
+.tenth__novo {
   bottom: 250px;
   left: 1010px;
 }
-.tenth__ekat{
+.tenth__ekat {
   bottom: 292px;
   left: 851px;
 }
-.tenth__btn-ekat{
+.tenth__btn-ekat {
   bottom: 347px;
   left: 861px;
 }
-.tenth__content-ekat{
+.tenth__content-ekat {
   bottom: 245px;
   left: 789px;
 }
-.tenth__samara{
+.tenth__samara {
   bottom: 228px;
   left: 769px;
 }
-.tenth__btn-samara{
+.tenth__btn-samara {
   bottom: 252px;
   left: 768px;
 }
-.tenth__content-samara{
+.tenth__content-samara {
   bottom: 155px;
   left: 694px;
 }
-.tenth__saratov{
+.tenth__saratov {
   bottom: 200px;
   left: 720px;
 }
-.tenth__btn-saratov{
+.tenth__btn-saratov {
   bottom: 224px;
   left: 729px;
 }
-.tenth__content-saratov{
-
+.tenth__content-saratov {
   bottom: 124px;
   left: 662px;
-
 }
-.tenth__tombov{
+.tenth__tombov {
   bottom: 225px;
   left: 698px;
 }
-.tenth__btn-tambov{
+.tenth__btn-tambov {
   bottom: 244px;
   left: 694px;
 }
-.tenth__content-tombov{
+.tenth__content-tombov {
   bottom: 145px;
   left: 622px;
 }
-.tenth__btn-stavropol{
+.tenth__btn-stavropol {
   bottom: 160px;
   left: 712px;
 }
-.tenth__stavropol{
+.tenth__stavropol {
   bottom: 141px;
   left: 705px;
 }
-.tenth__content-stavropol{
+.tenth__content-stavropol {
   bottom: 59px;
   left: 640px;
 }
-.tenth__btn-krasnodar{
+.tenth__btn-krasnodar {
   bottom: 162px;
   left: 662px;
 }
-.tenth__krasnodar{
+.tenth__krasnodar {
   bottom: 138px;
   left: 667px;
 }
-.tenth__content-krasnodar{
+.tenth__content-krasnodar {
   bottom: 60px;
   left: 596px;
 }
-.tenth__btn-kaluga{
+.tenth__btn-kaluga {
   bottom: 263px;
   left: 640px;
 }
-.tenth__kaluga{
+.tenth__kaluga {
   bottom: 250px;
   left: 640px;
 }
-.tenth__content-kaluga{
+.tenth__content-kaluga {
   bottom: 162px;
   left: 575px;
 }
-.tenth__btn-volgograd{
+.tenth__btn-volgograd {
   bottom: 355px;
   left: 687px;
 }
-.tenth__volgograd{
+.tenth__volgograd {
   bottom: 333px;
   left: 652px;
 }
-.tenth__content-volgograd{
+.tenth__content-volgograd {
   bottom: 255px;
   left: 620px;
 }
-.tenth__btn-piter{
+.tenth__btn-piter {
   bottom: 364px;
   left: 594px;
 }
-.tenth__piter{
+.tenth__piter {
   bottom: 353px;
   left: 602px;
-
 }
-.tenth__content-piter{
+.tenth__content-piter {
   bottom: 248px;
   left: 526px;
 }
@@ -2531,7 +2525,7 @@ body {
   color: #1b2a4e;
   z-index: 6;
 }
-.tenth__content-piter{
+.tenth__content-piter {
   padding: 18px 12px;
 }
 .tenth__content > *:not(:last-child) {
@@ -2541,26 +2535,706 @@ body {
   font-family: "Gilroy-Bold";
   color: #253968;
 }
-.tenth__content{
+.tenth__content {
   display: none;
   position: absolute;
 }
 .tenth__content-irkutsk {
-
   bottom: 219px;
   right: -80px;
 }
-.tenth__content-ulan{
+.tenth__content-ulan {
   bottom: 165px;
   right: -201px;
 }
-.tenth__content-novo{
+.tenth__content-novo {
   bottom: 203px;
   left: 956px;
 }
-.tenth__content.active{
+.tenth__content.active {
   display: block;
 }
+
+.tenth__cities {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+.tenth__cities-cover{
+  display: flex;
+  justify-content: flex-end;
+}
+.tenth__cities h3{
+  font-family: "Gilroy-Bold";
+  font-size: 19px;
+line-height: 23px;
+margin-bottom: 20px;
+}
+.tenth__cities-cover >*:not(:last-child){
+  margin-right: 21px;
+}
+.tenth__content-city{
+  background: #e8e8e8;
+  border-radius: 9.45455px;
+  padding: 18px 14px;
+  font-size: 12px;
+  line-height: 14px;
+  max-width: 186px;
+  color: #1b2a4e;
+  z-index: 6;
+}
+
+.tenth__adaptive-img {
+  display: none;
+}
+.tenth__adaptive {
+  display: none;
+}
+@media (max-width: 1310px) {
+  .tenth__map-container {
+    display: none;
+  }
+  .tenth__adaptive {
+    display: block;
+    position: absolute;
+    bottom: 19%;
+    right: -2%;
+    width: 550px;
+  }
+  .tenth__descr {
+    margin-bottom: 120px;
+  }
+  .tenth__body {
+    padding: 50px 0 85px;
+  }
+}
+@media (max-width: 1023px) {
+  .tenth__body {
+    padding: 50px 0 150px;
+}
+  .tenth__box {
+    max-width: 325px;
+    padding: 55px 17px 23px;
+}
+.tenth__box-content {
+  padding: 25px 33px 27px;
+}
+.tenth__cities {
+  position: absolute;
+  bottom: 28px;
+  right: 17px;
+}
+.tenth__cities h3 {
+  font-size: 18px;
+  line-height: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.tenth__adaptive {
+  bottom: 28%;
+  right: -20%;
+  width: 550px;
+}
+.tenth__cities-cover >*:not(:last-child) {
+  margin-right: 5px;
+}
+.tenth__map-container{
+  display: block;
+}
+.tenth__img{
+  display: none;
+}
+.tenth__btn {
+  position: absolute;
+  z-index: 5;
+  cursor: pointer;
+  width: 31px;
+  height: 38px;
+  background: url("../img/tenth/btn.png") 50%/cover no-repeat;
+}
+.tenth__btn.active {
+  background: url("../img/tenth/btn-active.png") 50%/cover no-repeat;
+}
+.tenth__btn-piter {
+  bottom: 384px;
+  left: 335px;
+}
+.tenth__piter {
+  bottom: 374px;
+  left: 345px;
+  z-index: 4;
+  width: 10px;
+}
+.tenth__content-piter {
+  bottom: 298px;
+  left: 335px;
+}
+.tenth__content-piter {
+  padding: 11px 5px;
+}
+.tenth__btn-volgograd {
+  bottom: 384px;
+  left: 385px;
+}
+.tenth__volgograd {
+  bottom: 364px;
+  left: 372px;
+  z-index: 4;
+  width: 62px;
+}
+.tenth__content {
+  padding: 11px 10px;
+}
+.tenth__content-volgograd {
+  bottom: 304px;
+  left: 338px;
+}
+.tenth__btn-kaluga {
+  bottom: 329px;
+  left: 359px;
+}
+.tenth__kaluga {
+  bottom: 318px;
+  left: 366px;
+  z-index: 4;
+  width: 22px;
+}
+.tenth__content-kaluga {
+  bottom: 248px;
+  left: 344px;
+}
+.tenth__btn-krasnodar {
+  bottom: 279px;
+  left: 380px;
+}
+.tenth__krasnodar {
+  bottom: 257px;
+  left: 377px;
+  z-index: 4;
+  width: 30px;
+}
+.tenth__content-krasnodar {
+  bottom: 197px;
+  left: 348px;
+}
+.tenth__btn-stavropol {
+  bottom: 268px;
+  left: 408px;
+}
+.tenth__stavropol {
+  bottom: 260px;
+  left: 400px;
+  z-index: 4;
+  width: 25px;
+}
+.tenth__content-stavropol {
+  bottom: 188px;
+  left: 383px;
+}
+.tenth__btn-tambov {
+  bottom: 322px;
+  left: 388px;
+}
+.tenth__tombov {
+  bottom: 304px;
+  left: 394px;
+  z-index: 4;
+  width: 20px;
+}
+.tenth__content-tombov {
+  bottom: 242px;
+  left: 356px;
+}
+.tenth__btn-saratov {
+  bottom: 309px;
+  left: 415px;
+}
+.tenth__saratov {
+  bottom: 293px;
+  left: 411px;
+  z-index: 4;
+  width: 39px;
+}
+.tenth__content-saratov {
+  bottom: 229px;
+  left: 380px;
+}
+.tenth__btn-samara {
+  bottom: 328px;
+  left: 439px;
+}
+.tenth__samara {
+  bottom: 306px;
+  left: 436px;
+  z-index: 4;
+  width: 24px;
+}
+.tenth__content-samara {
+  bottom: 239px;
+  left: 423px;
+}
+.tenth__btn-ekat {
+  bottom: 390px;
+  left: 486px;
+}
+.tenth__ekat {
+  bottom: 341px;
+  left: 480px;
+  z-index: 4;
+  width: 47px;
+}
+.tenth__content-ekat {
+  bottom: 302px;
+  left: 456px;
+}
+.tenth__btn-novo {
+  bottom: 345px;
+  left: 573px;
+}
+.tenth__novo {
+  bottom: 316px;
+  left: 563px;
+  z-index: 4;
+  width: 55px;
+}
+.tenth__content-novo {
+  bottom: 260px;
+  left: 500px;
+}
+.tenth__btn-ulan {
+  bottom: 343px;
+  right: -51px;
+}
+.tenth__ulan-ude {
+  bottom: 288px;
+  right: -56px;
+  z-index: 4;
+  width: 70px;
+}
+.tenth__content-ulan {
+  bottom: 258px;
+  right: -125px;
+}
+.tenth__btn-irkutsk {
+  bottom: 402px;
+  right: 0px;
+}
+.tenth__irkutsk {
+  bottom: 303px;
+  right: -41px;
+  z-index: 4;
+  width: 113px;
+}
+.tenth__content-irkutsk {
+  bottom: 306px;
+  right: -73px;
+}
+}
+@media (max-width: 767px) {
+  .tenth {
+    border-radius: 60px;
+}
+  .tenth__adaptive {
+    right: -45%;
+}
+.tenth__descr {
+  margin-bottom: 85px;
+  font-size: 18px;
+}
+.tenth__box {
+  max-width: 270px;
+  padding: 50px 10px 8px;
+}
+.tenth__box-descr {
+  font-size: 15px;
+  line-height: 17px;
+  margin-bottom: 15px;
+  
+}
+.tenth__box-content {
+  padding: 12px 13px 21px;
+}
+.tenth__box-text {
+  font-size: 15px;
+  line-height: 18px;
+}
+.tenth__cities {
+  bottom: 25px;
+  right: 13px;
+}
+.tenth__btn {
+  width: 19px;
+  height: 24px;
+
+}
+.tenth__btn-piter {
+  bottom: 353px;
+  left: 284px;
+}
+.tenth__piter {
+  bottom: 345px;
+  left: 287px;
+}
+.tenth__content-piter {
+  bottom: 270px;
+  left: 276px;
+}
+.tenth__btn-volgograd {
+  bottom: 362px;
+  left: 333px;
+}
+.tenth__volgograd {
+  bottom: 335px;
+  left: 312px;
+}
+.tenth__content-volgograd {
+  bottom: 275px;
+  left: 278px;
+}
+.tenth__btn-kaluga {
+  bottom: 308px;
+  left: 310px;
+}
+.tenth__kaluga {
+  bottom: 291px;
+  left: 306px;
+}
+.tenth__content-kaluga {
+  bottom: 228px;
+  left: 282px;
+}
+.tenth__btn-krasnodar {
+  bottom: 256px;
+  left: 326px;
+}
+.tenth__krasnodar {
+  bottom: 227px;
+  left: 319px;
+}
+.tenth__content-krasnodar {
+  bottom: 160px;
+  left: 285px;
+}
+.tenth__btn-stavropol {
+  bottom: 246px;
+  left: 348px;
+}
+.tenth__stavropol {
+  bottom: 232px;
+  left: 342px;
+}
+.tenth__content-stavropol {
+  bottom: 166px;
+  left: 298px;
+}
+.tenth__btn-tambov {
+  bottom: 295px;
+  left: 340px;
+} 
+.tenth__tombov {
+  bottom: 277px;
+  left: 338px;
+}
+.tenth__content-tombov {
+  bottom: 214px;
+  left: 280px;
+}
+.tenth__btn-saratov {
+  bottom: 285px;
+  left: 358px;
+}
+.tenth__saratov {
+  bottom: 265px;
+  left: 351px;
+}
+.tenth__content-saratov {
+  bottom: 204px;
+  left: 350px;
+}
+.tenth__btn-samara {
+  bottom: 302px;
+  left: 383px;
+}
+.tenth__samara {
+  bottom: 279px;
+  left: 377px;
+}
+.tenth__content-samara {
+  bottom: 220px;
+  left: 362px;
+}
+.tenth__btn-ekat {
+  bottom: 362px;
+  left: 432px;
+}
+.tenth__ekat {
+  bottom: 313px;
+  left: 421px;
+}
+.tenth__content-ekat {
+  bottom: 272px;
+  left: 380px;
+}
+.tenth__btn-novo {
+  bottom: 323px;
+  left: 520px;
+}
+.tenth__novo {
+  bottom: 289px;
+  left: 507px;
+}
+.tenth__content-novo {
+  bottom: 227px;
+  left: 385px;
+}
+.tenth__btn-irkutsk {
+  bottom: 402px;
+  right: -55px;
+}
+}
+@media (max-width: 600px) {
+  .tenth__body {
+    padding: 50px 0;
+  }
+  .tenth {
+    border-radius: 30px;
+  }
+  .tenth__descr {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .tenth__box::before {
+    width: 70px;
+    height: 70px;
+    background: url("../img/tenth/poligon.png") 50% / cover no-repeat;
+    top: -35px;
+  }
+  .tenth__box {
+    border-radius: 20px;
+    padding: 35px 15px 20px;
+  }
+  .tenth__box-content {
+    padding: 20px 58px 20px;
+  }
+  .tenth__box-title {
+    font-size: 18px;
+  }
+  .tenth__box-descr {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+  .tenth__box-discont {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .tenth__adaptive {
+    display: block;
+    position: absolute;
+    bottom: 24%;
+    right: -62%;
+    width: 447px;
+  }
+  .tenth__cities-cover{
+    flex-direction: column;
+    align-items: center;
+  }
+  .tenth__cities h3 {
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.tenth__cities{
+  position: static;
+  margin-top: 350px;
+}
+  .tenth__cities-cover >*:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+.tenth__map-container{
+  display: block;
+}
+.tenth__img{
+  display: none;
+}
+.tenth__btn-irkutsk{
+  display: none;
+}
+.tenth__irkutsk{
+  display: none;
+}
+.tenth__content-irkutsk{
+  display: none;
+}
+.tenth__btn-ulan{
+  display: none;
+}
+.tenth__ulan-ude{
+  display: none;
+}
+.tenth__content-ulan{
+  display: none;
+}
+.tenth__btn-novo {
+  bottom: 387px;
+  left: 181px;
+}
+.tenth__btn {
+  width: 21px;
+  height: 26px;
+  background: url("../img/tenth/btn.png") 50%/cover no-repeat;
+}
+.tenth__btn.active {
+  background: url("../img/tenth/btn-active.png") 50%/cover no-repeat;
+}
+.tenth__novo {
+  bottom: 365px;
+  left: 177px;
+  width: 40px;
+  z-index: 4;
+}
+.tenth__content-novo {
+  bottom: 345px;
+  left: 111px;
+}
+.tenth__content {
+  padding: 6px 10px;
+  font-size: 10px;
+  line-height: 4px;
+  max-width: 152px;
+}
+.tenth__btn-ekat {
+  bottom: 425px;
+  left: 114px;
+}
+.tenth__ekat {
+  bottom: 385px;
+  left: 106px;
+  z-index: 4;
+  width: 37px;
+}
+.tenth__content-ekat {
+  bottom: 385px;
+  left: 55px;
+}
+.tenth__btn-samara {
+  bottom: 373px;
+  left: 75px;
+}
+.tenth__samara {
+  bottom: 356px;
+  left: 72px;
+  z-index: 4;
+  width: 18px;
+}
+.tenth__content-samara {
+  bottom: 332px;
+  left: 13px;
+}
+.tenth__btn-saratov {
+  bottom: 363px;
+  left: 53px;
+}
+.tenth__saratov {
+  bottom: 344px;
+  left: 50px;
+  z-index: 4;
+  width: 33px;
+}
+.tenth__content-saratov {
+  bottom: 320px;
+  left: 0px;
+}
+.tenth__btn-tambov {
+  bottom: 374px;
+  left: 33px;
+}
+.tenth__tombov {
+  bottom: 354px;
+  left: 39px;
+  z-index: 4;
+  width: 15px;
+}
+.tenth__content-tombov {
+  bottom: 320px;
+  left: 0px;
+}
+.tenth__btn-stavropol {
+  bottom: 328px;
+  left: 47px;
+}
+.tenth__stavropol {
+  bottom: 318px;
+  left: 44px;
+  z-index: 4;
+  width: 20px;
+}
+.tenth__content-stavropol {
+  bottom: 288px;
+  left: 0px;
+}
+.tenth__btn-krasnodar {
+  bottom: 336px;
+  left: 26px;
+}
+.tenth__krasnodar {
+  bottom: 315px;
+  left: 26px;
+  z-index: 4;
+  width: 23px;
+}
+.tenth__content-krasnodar {
+  bottom: 289px;
+  left: 0px;
+}
+.tenth__btn-kaluga {
+  bottom: 377px;
+  left: 10px;
+}
+.tenth__kaluga {
+  bottom: 363px;
+  left: 12px;
+  z-index: 4;
+  width: 18px;
+}
+.tenth__content-kaluga {
+  bottom: 335px;
+  left: 0px;
+}
+.tenth__btn-volgograd {
+  bottom: 420px;
+  left: 38px;
+}
+.tenth__volgograd {
+  bottom: 402px;
+  left: 19px;
+  z-index: 4;
+  width: 51px;
+}
+.tenth__content-volgograd {
+  bottom: 380px;
+  left: 0px;
+}
+.tenth__btn-piter {
+  bottom: 417px;
+  left: -8px;
+}
+.tenth__piter {
+  bottom: 409px;
+  left: -2px;
+  z-index: 4;
+  width: 8px;
+}
+.tenth__content-piter {
+  bottom: 372px;
+  left: -10px;
+}
+}
+
 /* ========================================  last  ==================================== */
 
 .last {
